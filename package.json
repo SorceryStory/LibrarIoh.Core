@@ -1,7 +1,7 @@
 {
   "name": "com.sorceressspell.librarioh.core",
   "displayName": "LibrarIoh.Core",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "library",
   "unity": "2018.1",
   "description": "LibrarIoh's Core Library",
