@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.0] - 2022-04-14
+
+### Added
+
+### Changed
+
+- Namespace of the project was changed to `LibrarIoh.Core` from `LibrarIoh`.
+
+### Removed
+
 ## [0.2.0] - 2022-04-12
 
 ### Added

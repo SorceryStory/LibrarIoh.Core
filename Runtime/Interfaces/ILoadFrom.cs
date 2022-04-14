@@ -1,10 +1,10 @@
-namespace SorceressSpell.LibrarIoh
+namespace SorceressSpell.LibrarIoh.Core
 {
     public interface ILoadFrom<T>
     {
         #region Methods
 
-        void LoadFrom(T xmlElement);
+        void LoadFrom(T source);
 
         #endregion Methods
     }

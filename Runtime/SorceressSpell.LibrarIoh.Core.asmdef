@@ -1,6 +1,6 @@
 {
-    "name": "SorceressSpell.LibrarIoh",
-    "rootNamespace": "SorceressSpell.LibrarIoh",
+    "name": "SorceressSpell.LibrarIoh.Core",
+    "rootNamespace": "SorceressSpell.LibrarIoh.Core",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

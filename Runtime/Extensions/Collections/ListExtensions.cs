@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SorceressSpell.LibrarIoh
+namespace SorceressSpell.LibrarIoh.Core
 {
     public static class ListExtensions
     {

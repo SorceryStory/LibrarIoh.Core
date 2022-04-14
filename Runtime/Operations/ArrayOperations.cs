@@ -1,4 +1,4 @@
-namespace SorceressSpell.LibrarIoh
+namespace SorceressSpell.LibrarIoh.Core
 {
     public static class ArrayOperations
     {

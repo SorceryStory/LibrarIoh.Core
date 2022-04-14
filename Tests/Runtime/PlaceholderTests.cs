@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace SorceressSpell.LibrarIoh.Tests
+namespace SorceressSpell.LibrarIoh.Core.Tests
 {
     internal class Placeholder
     {

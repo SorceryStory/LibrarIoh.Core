@@ -1,8 +1,8 @@
 {
-    "name": "SorceressSpell.LibrarIoh.Tests",
-    "rootNamespace": "SorceressSpell.LibrarIoh.Tests",
+    "name": "SorceressSpell.LibrarIoh.Core.Tests",
+    "rootNamespace": "SorceressSpell.LibrarIoh.Core.Tests",
     "references": [
-        "SorceressSpell.LibrarIoh",
+        "SorceressSpell.LibrarIoh.Core",
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"
     ],
