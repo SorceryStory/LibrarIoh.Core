@@ -4,7 +4,7 @@ namespace SorceressSpell.LibrarIoh.Core
     {
         #region Methods
 
-        T Load(string filePath);
+        T Load(string sourceFilePath);
 
         #endregion Methods
     }
