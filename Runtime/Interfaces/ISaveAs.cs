@@ -1,6 +1,6 @@
 namespace SorceressSpell.LibrarIoh.Core
 {
-    public interface ISaveTo<T>
+    public interface ISaveAs<T>
     {
         #region Methods
 
