@@ -1,12 +1,12 @@
 {
   "name": "com.sorceressspell.librarioh.core",
   "displayName": "LibrarIoh.Core",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "type": "library",
   "unity": "2018.1",
   "description": "LibrarIoh.Core (https://github.com/SorceressSpell/LibrarIoh.Core)\n\nThe Core Functionality of LibrarIoh.",
   "author": {
-    "name": "Sorceress' Spell",
+    "name": "Joana Almeida",
     "email": "Sorceress.Spell@gmail.com",
     "url": "http://SorceressSpell.com"
   },
