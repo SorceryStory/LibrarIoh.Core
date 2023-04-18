@@ -45,36 +45,31 @@ namespace SorceressSpell.LibrarIoh.Core
 
         public static string UnAliasTypeName(string typeName)
         {
-            switch (typeName)
+            return typeName switch
             {
                 // Simple Type
-                case "bool": return typeof(bool).ToString();
-
+                "bool" => typeof(bool).ToString(),
                 // Numeric Type
-                case "decimal": return typeof(decimal).ToString();
-
+                "decimal" => typeof(decimal).ToString(),
                 // Integral Type
-                case "byte": return typeof(byte).ToString();
-                case "sbyte": return typeof(sbyte).ToString();
-                case "short": return typeof(short).ToString();
-                case "ushort": return typeof(ushort).ToString();
-                case "int": return typeof(int).ToString();
-                case "uint": return typeof(uint).ToString();
-                case "long": return typeof(long).ToString();
-                case "ulong": return typeof(ulong).ToString();
-                case "char": return typeof(char).ToString();
-
+                "byte" => typeof(byte).ToString(),
+                "sbyte" => typeof(sbyte).ToString(),
+                "short" => typeof(short).ToString(),
+                "ushort" => typeof(ushort).ToString(),
+                "int" => typeof(int).ToString(),
+                "uint" => typeof(uint).ToString(),
+                "long" => typeof(long).ToString(),
+                "ulong" => typeof(ulong).ToString(),
+                "char" => typeof(char).ToString(),
                 // Floating Point Type
-                case "double": return typeof(double).ToString();
-                case "float": return typeof(float).ToString();
-
+                "double" => typeof(double).ToString(),
+                "float" => typeof(float).ToString(),
                 // Class Type
-                case "object": return typeof(object).ToString();
-                case "string": return typeof(string).ToString();
-
+                "object" => typeof(object).ToString(),
+                "string" => typeof(string).ToString(),
                 // Default: Keep input
-                default: return typeName;
-            }
+                _ => typeName,
+            };
         }
 
         #endregion Methods

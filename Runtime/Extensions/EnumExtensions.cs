@@ -38,7 +38,7 @@ namespace SorceressSpell.LibrarIoh.Core
 
         public static T Set<T>(this Enum type, T value)
         {
-            return (T)(object)(((int)(object)type | (int)(object)value));
+            return (T)(object)((int)(object)type | (int)(object)value);
         }
 
         public static string ToBitString(this Enum type, int totalWidth)
@@ -48,7 +48,7 @@ namespace SorceressSpell.LibrarIoh.Core
 
         public static T Unset<T>(this Enum type, T value)
         {
-            return (T)(object)(((int)(object)type & ~(int)(object)value));
+            return (T)(object)((int)(object)type & ~(int)(object)value);
         }
 
         #endregion Methods

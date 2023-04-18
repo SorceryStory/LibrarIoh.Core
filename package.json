@@ -1,7 +1,7 @@
 {
   "name": "com.sorceressspell.librarioh.core",
   "displayName": "LibrarIoh.Core",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "type": "library",
   "unity": "2018.1",
   "description": "LibrarIoh.Core (https://github.com/SorceryStory/LibrarIoh.Core)\n\nThe Core Functionality of LibrarIoh.",
