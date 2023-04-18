@@ -17,7 +17,7 @@
 - Renamed `ISaveTo` to `ISaveAs`.
 - Changed the package author's and license's holders name.
 
-### [0.4.0]Removed
+### [0.4.0] Removed
 
 - Removed unecessary `FlagOperations`.
 
